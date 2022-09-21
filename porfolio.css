@@ -1,0 +1,96 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    height: 50px;
+    top: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/* section size  */
+.section{
+    height: 50vh;
+
+}
+
+/*Background colour for section headers*/
+#news {
+    background-color: #0074d9;
+}
+#about {
+    background-color: #84DD63;
+}
+#contact {
+    background-color: #ff851b;
+}
+
+
+/* hero image */
+.hero-image{
+    /* linear-gradient gives a darken background effect to the image making the text easier to read*/
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("student1.jpg");
+
+
+    /* setting the height of photo */
+    height: 800px;
+
+    /* ensuring the photo will be centered and scaled nicely on all screens*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background_size: cover;
+    position: relative;
+}
+
+/*hero text*/
+.hero-text{
+    text-align:center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    color: white;
+}
+
+/* headers */
+H1{
+    text-align: center;
+}
+
+/* footer */
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
